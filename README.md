@@ -4,6 +4,10 @@
 
 AgriSense turns a seven-day weather forecast and farmer-supplied crop/soil details into readable weather-risk warnings, a provisional irrigation priority, and suggested checks. The project is built with Streamlit and Python, and includes a transparent **heuristic decision model**. It is **not a trained ML model** and does not predict crop failure probabilities.
 
+## Live demo
+
+[Open AgriSense AI](https://agrisense-ai-aahil.streamlit.app/) — publicly deployed on Streamlit Community Cloud using Python 3.12. Both Offline demo and Live weather analysis were checked after deployment.
+
 ## What works
 
 - Live geocoding for Indian cities and seven-day forecasts via Open-Meteo (temperature, rainfall, ET₀, wind).
@@ -95,7 +99,7 @@ Wet soil reduces the index but does not force a Low result. Always check the fie
 
 Push contents to a GitHub repository and deploy through [Streamlit Community Cloud](https://share.streamlit.io/), selecting `app.py` as the entry point. No secrets or API keys are needed for non-commercial Open-Meteo access under its terms; check provider usage and attribution conditions.
 
-This repository contains the runnable source; publishing the repository does not itself deploy a live web app.
+The live app is deployed from this repository's `main` branch with `app.py` as the entry point and Python 3.12. No secrets are configured.
 
 ## Troubleshooting
 
