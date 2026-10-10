@@ -1,4 +1,4 @@
-# 🌾 AgriSense AI — HackOverflow 10.0
+# 🌾 AgriSense AI 
 
 **A weather-aware, explainable agricultural decision-support web app for Indian farmers.**
 
