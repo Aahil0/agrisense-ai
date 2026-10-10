@@ -38,23 +38,6 @@ Open the local Streamlit URL shown in the terminal. Set **Offline demo** in the 
 python -m pytest -q
 ```
 
-## Submission layout
-
-```
-app.py
-requirements.txt
-README.md
-.gitignore
-config/crop_profiles.json
-services/weather_api.py
-services/risk_engine.py
-services/irrigation.py
-utils/recommendations.py
-data/sample_weather.json
-tests/test_risk_engine.py
-tests/test_irrigation.py
-```
-
 The ZIP also contains an empty screenshots directory; no screenshots are bundled. Empty directories are not stored in Git.
 
 ## Implementation and data flow
@@ -125,6 +108,3 @@ This repository contains the runnable source; publishing the repository does not
 
 **For educational demonstration only.** This is not a validated crop-loss model, medical-like advisory system, disease detector, or field-calibrated irrigation prescription. Weather forecasts can be wrong; field moisture is self-reported; crop coefficients and risk thresholds are illustrative. Consult trusted local agronomists and official weather warnings before making decisions. Avoid representing synthetic demo weather as actual observations.
 
-## Submission
-
-The source archive includes code, requirements, README, example demo data, and tests. Follow the event portal for the exact submission cutoff and packaging requirements. Include a public repo/live URL and recording if requested by the organizers.
