@@ -1,0 +1,14 @@
+{
+  "source": "OFFLINE DEMO · SYNTHETIC scenario, not current observations",
+  "demo": true,
+  "location": {"name": "Pune", "admin1": "Maharashtra", "latitude": 18.52, "longitude": 73.86, "timezone": "Asia/Kolkata"},
+  "days": [
+    {"date": "Demo Day 1", "tmax": 33, "tmin": 23, "rain": 0, "et0": 5.1, "wind": 17},
+    {"date": "Demo Day 2", "tmax": 37, "tmin": 25, "rain": 0, "et0": 5.9, "wind": 26},
+    {"date": "Demo Day 3", "tmax": 39, "tmin": 26, "rain": 0, "et0": 6.2, "wind": 31},
+    {"date": "Demo Day 4", "tmax": 34, "tmin": 24, "rain": 43, "et0": 3.1, "wind": 45},
+    {"date": "Demo Day 5", "tmax": 32, "tmin": 23, "rain": 18, "et0": 3.5, "wind": 23},
+    {"date": "Demo Day 6", "tmax": 31, "tmin": 22, "rain": 3, "et0": 4.2, "wind": 14},
+    {"date": "Demo Day 7", "tmax": 33, "tmin": 23, "rain": 0, "et0": 4.8, "wind": 20}
+  ]
+}

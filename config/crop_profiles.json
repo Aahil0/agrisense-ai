@@ -1,0 +1,6 @@
+{
+  "Wheat": {"heat_c": 35, "heavy_rain_mm": 35, "dry_et0_mm": 4.5, "kc": 1.0, "stages": {"Seedling": 1.0, "Vegetative": 1.05, "Flowering": 1.2, "Maturity": 0.65}},
+  "Rice": {"heat_c": 38, "heavy_rain_mm": 65, "dry_et0_mm": 5.0, "kc": 1.15, "stages": {"Seedling": 1.0, "Vegetative": 1.1, "Flowering": 1.2, "Maturity": 0.75}},
+  "Maize": {"heat_c": 36, "heavy_rain_mm": 45, "dry_et0_mm": 5.0, "kc": 1.05, "stages": {"Seedling": 0.7, "Vegetative": 1.05, "Flowering": 1.2, "Maturity": 0.65}},
+  "Tomato": {"heat_c": 34, "heavy_rain_mm": 35, "dry_et0_mm": 4.5, "kc": 1.05, "stages": {"Seedling": 0.75, "Vegetative": 1.0, "Flowering": 1.15, "Maturity": 0.85}}
+}
